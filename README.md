@@ -12,7 +12,7 @@ Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching
 
 ## CITATION
 ```python
-@article{CHWS2024f,
+@article{CHWS2024,
       title={Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching}, 
       author={Jannis Chemseddine and Paul Hagemann and Christian Wald and Gabriele Steidl},
       journal={arXiv preprint arXiv:2403.18705}
