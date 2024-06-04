@@ -132,7 +132,7 @@ if __name__ == "__main__":
     parser.add_argument('--batchOT', type=int, default=500, help='Batch size for OT computation')
     parser.add_argument('--decay', type=float, default=0.9999, help='Decay value for SWA')
     parser.add_argument('--batch_net', type=int, default=100, help='Batch size for networks')
-    parser.add_argument('--dir_name', type=str, default="/work/chemseddine/GreatFM/Run3/", help='Directory name for saving files')
+    parser.add_argument('--dir_name', type=str, default="cOT", help='Directory name for saving files')
     args = parser.parse_args()
     save_dir = os.path.join(args.dir_name, f'nets{args.beta}')
     os.makedirs(save_dir, exist_ok=True)
