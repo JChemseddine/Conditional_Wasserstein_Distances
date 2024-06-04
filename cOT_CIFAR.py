@@ -92,6 +92,9 @@ def main(args):
             plan = ot.emd(u, v, C)
             ind2 = torch.tensor(np.argmax(plan, 1), device=device)
             g_x = z - gt[ind2]
+            
+            #To run random matching replace lines 89-94 with the following:
+            #g_x = z - gt
 
         
             start = z - t.view(-1, 1) * g_x
