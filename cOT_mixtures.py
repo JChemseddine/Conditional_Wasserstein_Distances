@@ -15,7 +15,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Train and evaluate the model")
     parser.add_argument("--ntrain", type=int, default=4000, help="Number of training steps")
     parser.add_argument("--ntraj", type=int, default=200, help="Batch size of Sinkhorn")
-    parser.add_argument("--beta", type=float, default=100., help="Beta value")
+    parser.add_argument("--beta", type=float, default=20., help="Beta value")
     parser.add_argument("--DIMENSION", type=int, default=5, help="Dimension value")
     parser.add_argument("--directory", type=str, default="imgs", help="Directory for saving images")
     parser.add_argument("--seed", type=int, default=42, help="Seed value")
